@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="header">
       <p className="title">
-        OpenTBD Quiz
+        OpenTDB Quiz
       </p>
       <hr className="divider" />
     </div>
