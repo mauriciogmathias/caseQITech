@@ -1,0 +1,40 @@
+.loading {
+    text-align: center;
+    padding: 30vh 0;
+}
+
+.quiz {
+    text-align: center;
+    padding: 13vh 0;
+}
+
+.lead {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.alternatives {
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin: 0 15vw;
+}
+
+@media (max-width: 800px) {
+    .buttons{
+        margin: 04vw;
+    }
+}

@@ -1,0 +1,54 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quizSettings {
+    font-size: 30px;
+}
+
+.settings {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.banner {
+    width: 55%;
+    align-self: center;
+    padding: 8px;
+}
+
+.settingsSelect {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
+}
+
+.space {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner{
+        width: 85%;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .settings {
+        width: 100%;
+    }
+}

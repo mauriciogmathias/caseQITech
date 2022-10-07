@@ -1,0 +1,22 @@
+.result {
+    text-align: center;
+    padding: 14vh 0;
+}
+
+.score {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.table {
+    padding: 0 1vw;
+    margin-bottom: 40px;
+}
+
+.tableHeader {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
