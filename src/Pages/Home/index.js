@@ -17,7 +17,7 @@ const Home = () => {
   const [error, setError] = useState(false);
 
   const shuffleAnswers = (data) => {
-    var values = {0:[],1:[],2:[],3:[],4:[],5:[],6:[],7:[],8:[],9:[],}
+    var values = {}
     for (var i = 0; i < data.length; i++) {
       const aux = [...data[i].incorrect_answers, data[i].correct_answer];
       values[i] = aux.sort(() => Math.random() - 0.5);
